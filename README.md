@@ -18,3 +18,5 @@ Campo numero do cartao em Dados Bancários com no maximo 20 digitos
 CVC com * e com no maximo 3 digitos
 Botão de plano mudando o estilo caso seja clicado. 
 Logar via console todo o objeto (Nome, Telefone, Endereco, PlanoEscolhido, NomeCartao, NumCartao e CVC.). 
+
+Nome dos integrantes: Ruan Guilherme Siqueira Farias
