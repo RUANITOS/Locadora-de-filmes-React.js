@@ -1,0 +1,18 @@
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .movie-image {
+    
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 200px;
+  }
+  
+  .movie-info {
+    flex: 1 1 400px;
+    margin-left: 250px;
+  }

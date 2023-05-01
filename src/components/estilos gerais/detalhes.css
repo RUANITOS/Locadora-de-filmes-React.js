@@ -1,0 +1,43 @@
+.titulo {
+    text-align: center;
+    margin: 50px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.selected {
+    background-color: blue;
+    color: white;
+}
+
+.detalhes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+.detalhes-pessoa {
+    width: 40%;
+}
+
+.detalhes-pessoa input[type="text"] {
+    width: 100%;
+}
+
+.detalhes-card {
+    width: 40%;
+    
+}
+
+.detalhes-card input[type="password"],
+.detalhes-card input[type="text"] {
+    width: 100%;
+}
+.botada{
+    text-align: center;
+    margin-top: 10px;
+}

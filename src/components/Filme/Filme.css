@@ -1,0 +1,43 @@
+.movie-card {
+    padding-left: 330px;
+    text-align: center;
+    width: 700px;
+    height: 600px;
+  }
+  
+  .watch-button {
+    background-color: black;
+    color: white;
+  }
+  .imagem{
+    height: 400px;
+  }
+  .sort{
+    padding-left: 330px;
+    width: 100%;
+    padding-right: 330px;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .sort {
+    flex: 1;
+  }
+  
+  .search {
+    padding-left: 350px;
+    margin-left: 100px;
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 576px) {
+    .sort {
+      margin-top: 1rem;
+    }
+    .search {
+      margin-top: 1rem;
+    }
+  }
