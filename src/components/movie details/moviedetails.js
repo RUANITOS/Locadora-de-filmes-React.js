@@ -1,6 +1,7 @@
 import "./moviedetails.css"
 import WatchButton from "../Botão/index";
 import React, { useState, useEffect } from "react";
+import Comments from "../comentarios";
 import { useParams } from "react-router-dom";
 
 function MovieDetails() {
@@ -55,6 +56,8 @@ function MovieDetails() {
             ) : (
                 <p>Filme não encontrado.</p>
             )}
+            <h2 className="comentarios">Comentários</h2>
+            <Comments filme={movie.titulo} />
         </div>
     );
 }
